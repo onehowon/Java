@@ -20,6 +20,6 @@ class Ex5_5{
         
         // 배열 ball의 앞에서 부터 6개의 요소를 출력
         for(int i = 0; i < 6; i++)
-            System.out.println("ball[%d]=%d%n", i, ball[i]);
+            System.out.printf("ball[%d]=%d%n", i, ball[i]);
     }
 }
