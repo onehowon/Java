@@ -1,3 +1,4 @@
+// 참조형 매개변수
 class Data2 { int x; }
 
 public class Ex6_7{
