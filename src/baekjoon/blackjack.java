@@ -23,7 +23,7 @@ public class blackjack{
         // 카드가 3장이기에 N-2 ~ N까지 3번 반복
         for(int i=0; i<N-2; i++){
             for(int j = i+1; j<N-1; j++){
-                for(int k=j+1; k<N; k++){
+                for(int k = j+1; k<N; k++){
                     int temp = arr[i] + arr[j] + arr[k];
                     if(M == temp){
                         return temp;
