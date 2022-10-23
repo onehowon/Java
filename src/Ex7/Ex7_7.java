@@ -1,10 +1,30 @@
-import static java.lang.System.out;
-import static java.lang.Math.*;
-
 public class Ex7_7{
-    public static void main(String[] args){
-        out.println(random());
+    public static void main(String args[]){
+        Car car = null;
+        FireEngine fe = new FireEngine();
+        FireEngine fe2 = null;
         
-        out.println("Math.PI :" + PI);
+        fe.water();
+        car = fe;
+        fe2 = (FireEngine)car;
+        fe2.water();
+    }
+}
+
+class Car{
+    String color;
+    int door;
+    
+    void drive(){
+        System.out.println("drive, Brrrr~");
+    }
+    void stop(){
+        System.out.println("stop!!!");
+    }
+}
+
+class FireEngine extends Car{
+    void water(){
+        System.out.println("water!!!");
     }
 }
