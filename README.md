@@ -316,3 +316,14 @@
 ## try 블럭 내에서 예외가 발생한 경우
 #### 발생한 예외와 일치하는 catch 블럭이 있는지 확인한다.
 #### 일치하는 catch 블럭 발견시, 그 catch 블럭 내의 문장 수행 후 전체 try-catch문을 빠져나가서 그 다음 문장을 계속해서 수행한다. 일치하는 catch 블럭을 찾지 못하면, 예외 처리 X
+
+# java.lang 기본 패키지
+#### protected Object clone() : 객체 자신의 복사본을 반환한다.
+#### public boolean equals(Object obj) : 객체 자신과 객체 obj가 같은 객체인지 알려준다.(같으면 true)
+#### protected void finalize() : 객체가 소멸될 때 가비지 컬렉터에 의해 자동 호출. 이 때 수행돼야하는 코드가 있을 때 오버라이딩(거의 사용 X)
+#### public Class getClass() : 객체 자신의 클래스 정보를 담은 Class 인스턴스 반환
+#### public int hashCode() : 객체 자신의 해쉬코드 반환
+#### public String toString() : 객체 자신의 정보를 문자열로 반환
+#### public void notify() : 객체 자신을 사용하려고 기다리는 쓰레드를 하나만 깨움
+#### public void notifyAll() : 객체 자신을 사용하려고 기다리는 모든 쓰레드를 깨움
+#### public void wait(), (long timeout), (long timeout, int nanos) : 다른 쓰레드가 notify()나 notifyAll()을 호출할 때까지 현재 쓰레드를 무한히 또는 지정된 시간 동안 기다리게 한다.
