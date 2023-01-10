@@ -344,3 +344,15 @@
 #### 예) 우편번호, 지역번호(전화번호)
 #### 구현클래스: HashMap, TreeMap, HashTable, Properties
 
+## Stack
+#### 마지막에 넣은 데이터를 먼저 꺼내는 자료구조 (LIFO)
+#### Stack, ArrayQueue 등
+
+## Queue
+#### 먼저 넣은 데이터를 먼저 꺼내는 구조(FIFO)
+#### Queue, ArrayDeque 등
+
+## ArrayDeque
+#### 양 끝에서 삽입과 삭제가 이뤄지는 자료구조
+#### 실무에서는 단순히 Stack, Queue 보다는 ArrayDeque를 많이 사용한다.
+#### Stack, Queue 기능을 모두 포함하면서도 성능이 더 좋기 떄문
