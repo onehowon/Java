@@ -344,6 +344,10 @@
 #### 예) 우편번호, 지역번호(전화번호)
 #### 구현클래스: HashMap, TreeMap, HashTable, Properties
 
+### HashMap
+#### 키 : 컬렉션 내 키 중에서 유일해야 한다.
+#### 값 : 키와 달리 데이터의 중복을 허용한다.
+
 ## Stack
 #### 마지막에 넣은 데이터를 먼저 꺼내는 자료구조 (LIFO)
 #### Stack, ArrayQueue 등
