@@ -21,13 +21,13 @@ public class Ex15_3{
                 output.write(temp);
                 
                 outSrc = output.toByteArray();
-                printArrays(temp, ourSrc);
+                printArrays(temp, outSrc);
             }
         } catch(IOException e){}
     }
     
     static void printArrays(byte[] temp, byte[] outSrc){
         System.out.println("temp    :"+Arrays.toString(temp));
-        System.out.println("Output Source:"+Arrays.toStrng(outSrc));
+        System.out.println("Output Source:"+Arrays.toString(outSrc));
     }
 }
