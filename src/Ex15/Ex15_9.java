@@ -14,7 +14,7 @@ public class Ex15_9{
             
             fr.close();
             fw.close();
-        } catch(IOException) {
+        } catch(IOException e) {
             e.printStackTrace();
         }
         
