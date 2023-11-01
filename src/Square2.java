@@ -7,5 +7,6 @@ public class Square2 {
     public static void main(String[] args) {
 //        printSqaure("hello");
 //        printSqaure(5.5);
+//
     }
 }
