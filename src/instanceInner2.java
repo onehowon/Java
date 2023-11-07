@@ -2,7 +2,7 @@ public class instanceInner2 {
     class InstanceInner{}
     static class StaticInner{}
 
-    InstanceInner iv = new InstanceInner();
+    InstanceInner iv = new InstanceInner();전라남도 목포시 산정동 1277-5
     static StaticInner cv = new StaticInner();
 
     static void staticMethod(){
