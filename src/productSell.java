@@ -8,7 +8,7 @@ class Product{
     }
 }
 
-class Tv1 extends Product{
+class Tv1 extends Product_ex {
     Tv1(){
         super(100);
     }
@@ -16,7 +16,7 @@ class Tv1 extends Product{
     public String toString(){return "Tv";}
 }
 
-class Computer extends Product{
+class Computer extends Product_ex {
     Computer() { super(200); }
     public String toString() { return "Computer"; }
 }
@@ -25,7 +25,7 @@ class Buyer{
     int money = 1000;
     int bonusPoint = 0;
 
-    void buy(Product p){
+    void buy(Product_ex p){
         if(money < p.price){
             System.out.println("잔액이 부족하여 물건을 살 수 없습니다.");
             return;
