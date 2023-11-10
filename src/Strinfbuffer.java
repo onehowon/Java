@@ -10,5 +10,6 @@ public class Strinfbuffer {
         String s2 = sb2.toString();
 
         System.out.println("s.equals(s2) ? " + s.equals(s2));
+        System.out.println();
     }
 }
