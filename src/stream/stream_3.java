@@ -35,5 +35,6 @@ public class stream_3 {
         System.out.println("sum"+sum);
         System.out.println("max"+max.getAsInt());
         System.out.println("min"+min.getAsInt());
+        System.out.println();
     }
 }
