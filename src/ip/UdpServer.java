@@ -37,5 +37,6 @@ public class UdpServer {
         } catch(IOException e){
             e.printStackTrace();
         }
+        System.out.println();
     }
 }
